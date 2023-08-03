@@ -12,7 +12,7 @@ def get_port_number() -> int:
                 print(f"Using port {data['port']}.")
                 port = data['port']
     except:
-        print("Config file not found...")
+        print("Config file found...")
     finally:
         if port == 9000:
             print("Defaulting to port 9000.")
